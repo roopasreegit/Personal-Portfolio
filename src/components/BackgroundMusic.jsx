@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 
 const BackgroundMusic = () => {
   const audioRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true); // Start with music playing
 
   const toggleMusic = async () => {
     const audio = audioRef.current;
