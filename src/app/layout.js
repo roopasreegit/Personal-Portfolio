@@ -2,6 +2,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import BackgroundMusic from "@/components/BackgroundMusic";
+
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 const geistSans = Geist({
@@ -23,6 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.variable}>
+        <BackgroundMusic />
         {children}
       </body>
     </html>
