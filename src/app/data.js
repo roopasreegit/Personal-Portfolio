@@ -45,7 +45,7 @@ export const projectsData = [
         id: 2,
         name: "Sliding Window Rate Limiter",
         description: "Redis based sliding window rate limiter implementation in Node.js to control API request rates effectively.",
-        image: "/projects/rate-limiter-img.png",
+        image: "/projects/ratelimiter2.png",
         demolink: "https://github.com/roopasreegit/SlidingWindowRateLimiter",
     },
     {
