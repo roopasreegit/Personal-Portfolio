@@ -41,7 +41,7 @@ const NavButton = ({ x, y, label, link, icon, newTab }) => {
         <span className="relative z-10 h-14 w-14 p-4 transition-all duration-300 group-hover:text-[#fff1c7] group-hover:drop-shadow-[0_0_6px_rgba(255,225,150,0.35)]">
           {getIcon(icon)}
         </span>
-        <span className="absolute left-full top-1/2 ml-3 hidden -translate-y-1/2 whitespace-nowrap rounded-md border border-white/10 bg-[#17132b]/80  opacity-10 px-2.5 py-1 text-sm text-[#f5e9cf] shadow-lg backdrop-blur-md group-hover:block">
+        <span className="absolute left-full top-1/2 ml-3 hidden -translate-y-1/2 whitespace-nowrap rounded-md border border-white/10 bg-[#17132b]/80  opacity-80 px-2.5 py-1 text-sm text-[#f5e9cf] shadow-lg backdrop-blur-md group-hover:block">
           {label}
         </span>
       </Link>
